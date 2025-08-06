@@ -119,6 +119,15 @@ tools/server/webui/dist
 __pycache__/
 */poetry.lock
 poetry.toml
+venv/
+*.lib
+*.exe
+*.dll
+*.so
+__pycache__/
+*.pyc
+.idea/
+.DS_Store
 
 # Nix
 /result
