@@ -139,6 +139,7 @@ models = [
     {"name": "lfm2",             "tokt": TOKENIZER_TYPE.BPE, "repo": "https://huggingface.co/LiquidAI/LFM2-Tokenizer"},
     {"name": "exaone4",          "tokt": TOKENIZER_TYPE.BPE, "repo": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-32B", },
     {"name": "mellum",           "tokt": TOKENIZER_TYPE.BPE, "repo": "https://huggingface.co/JetBrains/Mellum-4b-base", },
+    {"name": "gpt-oss-20b",      "tokt": TOKENIZER_TYPE.BPE, "repo": "https://huggingface.co/openai/gpt-oss-20b", },
 ]
 
 # some models are known to be broken upstream, so we will skip them as exceptions

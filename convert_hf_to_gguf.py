@@ -858,6 +858,9 @@ class TextModel(ModelBase):
         if chkhsh == "a1e163ecab2e718a4c829d1148b6e86824ec36163bb71941c3dca9cd5ac25756":
             # ref: https://huggingface.co/JetBrains/Mellum-4b-base
             res = "mellum"
+        if chkhsh == "ccc2ef013c104be7bae2965776d611e1d7a8a2a9c547dd93a682c9a9fc80352e":
+            # ref: https://huggingface.co/openai/gpt-oss-20b
+            res = "gpt-oss-20b"
 
         if res is None:
             logger.warning("\n")
